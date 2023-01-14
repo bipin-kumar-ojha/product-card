@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(241, 232, 232);
+    
+}
+.card{
+    width: 650px;
+    height: 100%;
+    margin: 10% auto;
+    background: #fff;
+    display: flex;
+    border-radius: 15px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.card-img{
+    width: 45%;
+    float: left;
+    border-radius: 15px;
+}
+.coffee-mug{
+    width: 55%;
+    float: right;
+    background-color: #fff;
+    height: 100%;
+    padding:10px 30px;
+    border-radius: 15px;
+}
+button{
+    border: none;
+    background-color: rgb(12, 77, 12);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 19px 0px;
+    border-radius: 9px;
+}
+button img{
+    width: 15px;
+}
+.offer-price{
+    font-size: 30px;
+    color: #0c4d0c;
+    font-weight: 600;
+}
+.prev-price{
+    color: #837676;
+    padding: 0px 5px;
+    font-weight: 400;
+}
+
+.top-title{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 300;
+    color: gray;
+    
+
+}
+.coffee-mug h2{
+    font-size: 32px;
+    padding: 0px 46px 0px 0px;
+    line-height: 1;
+    font-family: 'Fraunces';
+}
+.coffee-mug p{
+    font-size: 16px;
+    color:gray;
+    font-weight: 300;
+    font-family: 'Montserrat';
+}
